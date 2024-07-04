@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-image: linear-gradient(160deg, rgb(139, 134, 134), rgb(97, 36, 36)); */
+ 
+}
+body{
+   background-color: rgb(94, 55, 55);
+}
+.img_define{
+    float: right;
+    border-radius: 45%;
+    width: 30%;
+}
+.pos_cen{
+    /* background-image: linear-gradient(160deg, rgb(139, 134, 134), rgb(97, 36, 36)); */
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    top: 20%;
+}
+.content{
+    size: 30px;
+}
+.content h2{
+    color: aliceblue;
+    font-size: 70px;
+}
+.content h3{
+    color: aliceblue;
+    padding-top: 10px;
+    font-size: 30px;
+}
+.btn{
+    margin-top: 50px;
+    padding: 5px;
+    border-radius: 8px;
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+.btn:hover{
+    background-color: rgb(90, 50, 50);
+    border-radius: 20px;
+    transition: 0.4s ease-in;
+    color: aliceblue;
+    border-color: aliceblue;
+}
